@@ -1,0 +1,20 @@
+<br>
+<table class="table">
+    <tr>
+        <td>Number1</td>
+        <td><input type="number" class="form-control" [(ngModel)]="n1"></td>
+    </tr>
+    <tr>
+        <td>Number2</td>
+        <td><input type="number" class="form-control" [(ngModel)]="n2"></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;">
+            <button type="button" class="btn btn-primary btn-lg" (click)="add()">&nbsp;+&nbsp;</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary btn-lg" (click)="sub()">&nbsp;-&nbsp;</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary btn-lg" (click)="mul()">&nbsp;*&nbsp;</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-primary btn-lg" (click)="div()">&nbsp;/&nbsp;</button>
+        </td>
+    </tr>
+</table>
+<h2>Result is {{r}}</h2>
